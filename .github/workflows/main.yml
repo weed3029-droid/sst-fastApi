@@ -63,7 +63,7 @@ jobs:
             
             # 5. venv 없으면 생성
             if [ ! -f "venv/bin/activate" ]; then
-              python3.12 -m venv venv
+              python3.11 -m venv venv
               echo "venv 생성 완료"
             fi
             
